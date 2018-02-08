@@ -39,30 +39,30 @@ The pre-trained classifier model included in this repository was trained for 60 
 #### Below are the accuracy results for the included classifier model
 
 | Overal Accuracy |
-| :---| |
+| :---: |
 | 0.852917 |
 
 
 
 | Dresser | Chair | Piano | Keyboard | Tent | Wardrobe | Bookshelf | Bed |
-| :---| | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 0.76 | 0.95 |0.83 | 0.90 | 1.00 | 0.65 | 0.95 | 0.92 |
 
 | XBox | Vase | Table | Flower Pot | Cup | Glass Box | Night Stand | Sink |
-| :---| | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 0.70 | 0.81 |0.70 | 0.00 | 0.45 | 0.89 | 0.66 | 0.65 |
 
 | Laptop | Airplane | Curtain | Range Hood | Stairs | Door | Radio | Bowl |
-| :---| | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 0.95 | 0.99 |0.80 | 0.91 | 0.65 | 0.85 | 0.70 | 1.00 |
 
 | Toilet | Plant | Monitor | Lamp | Mantle | TV Stand | Car | Cone |
-| :---| | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 0.88 | 0.89 |0.94 | 0.75 | 0.89 | 0.79 | 0.91 | 0.85 |
 
 
 | Bathtub | Bottle | Person | Stool | Bench | Guitar | Sofa | Desk |
-| :---| | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 0.82 | 0.96 | 0.85 | 0.60 | 0.85 | 0.91 | 0.97 | 0.80 |
 
 
