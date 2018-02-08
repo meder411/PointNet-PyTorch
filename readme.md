@@ -35,39 +35,16 @@ Here is an graph showing the training loss over 60 epochs:
 
 Total Accuracy: 0.852917
 
-| Dresser | Chair | Piano | Keyboard | Tent | Wardrobe | Bookshelf | Bed |
+| **Dresser | Chair | Piano | Keyboard | Tent | Wardrobe | Bookshelf | Bed** |
 | ------- | ----- | ----- | -------- | ---- | -------- | --------- | --- |
-| 0.755814 | 0.95 |0.83 | 0.9 | 1.0 | 0.65 | 0.95 | 0.92 |
-| Dresser | Chair | Piano | Keyboard | Tent | Wardrobe | Bookshelf | Bed |
-| ------- | ----- | ----- | -------- | ---- | -------- | --------- | --- |
-| 0.755814 | 0.95 |0.83 | 0.9 | 1.0 | 0.65 | 0.95 | 0.92 |
+| 0.76 | 0.95 |0.83 | 0.90 | 1.00 | 0.65 | 0.95 | 0.92 |
+| **XBox | Vase | Table | Flower Pot | Cup | Glass Box | Night Stand | Sink**|
+| 0.70 | 0.81 |0.70 | 0.00 | 0.45 | 0.89 | 0.66 | 0.65 |
+| **Laptop | Airplane | Curtain | Range Hood | Stairs | Door | Radio | Bowl**|
+| 0.95 | 0.99 |0.80 | 0.91 | 0.65 | 0.85 | 0.70 | 1.00 |
 
 
-Per Class Accuracy:
--dresser: 0.755814
--chair: 0.950000
--piano: 0.830000
--keyboard: 0.900000
--tent: 1.000000
--wardrobe: 0.650000
--bookshelf: 0.950000
--bed: 0.920000
--xbox: 0.700000
--vase: 0.810000
--table: 0.700000
--flower_pot: 0.000000
--cup: 0.450000
--glass_box: 0.890000
--night_stand: 0.662791
--sink: 0.650000
--laptop: 0.950000
--airplane: 0.990000
--curtain: 0.800000
--range_hood: 0.910000
--stairs: 0.650000
--door: 0.850000
--radio: 0.700000
--bowl: 1.000000
+
 -toilet: 0.880000
 -plant: 0.890000
 -monitor: 0.940000
