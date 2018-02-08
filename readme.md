@@ -11,15 +11,23 @@ This is a PyTorch re-implementation of PointNet according to the specifications 
 
 If you use my re-implementation for your own work, please cite the original paper:
 
+```
 Qi, Charles R., et al. "Pointnet: Deep learning on point sets for 3d classification and segmentation." Proc. Computer Vision and Pattern Recognition (CVPR), IEEE 1.2 (2017): 4.
+```
+
+## TO-DO's
+ * Finsh segmentation implementation
+ * Upload the sampled ModelNet40 data
 
 
-NOTE: SEGMENTATION IMPLEMENTATION FORTHCOMING
 
+## Classification Results
 
 The pre-trained classifier model included in this repository was trained for 60 epochs with a batch size of 32 on a 2000-point-per-model sampling of ModelNet40.
 
 Here is an graph showing the training loss.
+
+![classifier_training_loss](PointNet-PyTorch/img/classification_training_loss.png)
 
 Classification results are detailed below.
 
