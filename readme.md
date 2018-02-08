@@ -27,7 +27,7 @@ The pre-trained classifier model included in this repository was trained for 60 
 
 Here is an graph showing the training loss.
 
-![classifier_training_loss](PointNet-PyTorch/img/classification_training_loss.png)
+![classifier_training_loss](img/classification_training_loss.png)
 
 Classification results are detailed below.
 
