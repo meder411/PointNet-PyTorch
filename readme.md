@@ -37,7 +37,7 @@ The pre-trained classifier model included in this repository was trained for 60 
 ![classifier_training_loss](img/classification_training_loss.png)
 
 
-#### Below are the accuracy results for the included classifier model
+#### Below are the accuracy results for the included classifier model on the test set
 
 | Overal Accuracy |
 | :---: |
