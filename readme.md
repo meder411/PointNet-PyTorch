@@ -22,6 +22,7 @@ Proc. Computer Vision and Pattern Recognition (CVPR), IEEE 1.2 (2017): 4.
 ## Repo TO-DO's
  * Finsh segmentation implementation
  * Upload the sampled ModelNet40 data
+ * Write up how-to section
 
 
 ---
