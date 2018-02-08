@@ -4,7 +4,6 @@ import torch.autograd as grad
 import torch.nn.functional as F
 
 import numpy as np
-import time
 
 from torch.utils.data import DataLoader
 from dataloader import ModelNet40
@@ -15,13 +14,11 @@ from models.pointnet_classifier import PointNetClassifier
 
 def main():
 	
-
 	num_points = 2000
 	dims = 3
 	batch_size = 32
-	printout = 20
-	dataset_root_path = '/data/e/ModelNet40/sampled2000'
-	model_path = '/playpen/meder/projects/point-gan/snapshots/snapshot60.params'
+	dataset_root_path = '/data/ModelNet40/'
+	model_path = 'classifier_model_state.pth'
 
 
 	# Instantiate a dataset loader
@@ -60,14 +57,8 @@ def main():
 		target = grad.Variable(sample[1]).cuda()
 		path = sample[2]
 
-		# Record starting time
-		start_time = time.time()
-
 		# Forward pass
 		pred, _ = classifier(points)
-
-		# Compute forward pass time
-		forward_time = time.time() - start_time
 
 		# Update accuracy
 		# print pred
