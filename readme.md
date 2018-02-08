@@ -28,14 +28,18 @@ Proc. Computer Vision and Pattern Recognition (CVPR), IEEE 1.2 (2017): 4.
 
 The pre-trained classifier model included in this repository was trained for 60 epochs with a batch size of 32 on a 2000-point-per-model sampling of ModelNet40.
 
-Here is an graph showing the training loss over 60 epochs:
+#### Here is an graph showing the training loss over 60 epochs:
 
 ![classifier_training_loss](img/classification_training_loss.png)
 
 
-| Total Accuracy |
+#### Below are the accuracy results for the included classifier model
+
+| Overal Accuracy |
 | --- |
 | 0.852917 |
+
+---
 
 | Dresser | Chair | Piano | Keyboard | Tent | Wardrobe | Bookshelf | Bed |
 | ------- | ----- | ----- | -------- | ---- | -------- | --------- | --- |
