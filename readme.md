@@ -12,7 +12,8 @@ This is a PyTorch re-implementation of PointNet according to the specifications 
 If you use my re-implementation for your own work, please cite the original paper:
 
 ```
-Qi, Charles R., et al. "Pointnet: Deep learning on point sets for 3d classification and segmentation." Proc. Computer Vision and Pattern Recognition (CVPR), IEEE 1.2 (2017): 4.
+Qi, Charles R., et al. "Pointnet: Deep learning on point sets for 3d classification and segmentation." 
+Proc. Computer Vision and Pattern Recognition (CVPR), IEEE 1.2 (2017): 4.
 ```
 
 ## TO-DO's
@@ -21,21 +22,26 @@ Qi, Charles R., et al. "Pointnet: Deep learning on point sets for 3d classificat
 
 
 
+
+
 ## Classification Results
 
 The pre-trained classifier model included in this repository was trained for 60 epochs with a batch size of 32 on a 2000-point-per-model sampling of ModelNet40.
 
-Here is an graph showing the training loss.
+Here is an graph showing the training loss over 60 epochs:
 
 ![classifier_training_loss](img/classification_training_loss.png)
 
-Classification results are detailed below.
-
------------
-CLASSIFIER
------------
 
 Total Accuracy: 0.852917
+
+| Dresser | Chair | Piano | Keyboard | Tent | Wardrobe | Bookshelf | Bed |
+| ------- | ----- | ----- | -------- | ---- | -------- | --------- | --- |
+| 0.755814 | 0.95 |0.83 | 0.9 | 1.0 | 0.65 | 0.95 | 0.92 |
+| Dresser | Chair | Piano | Keyboard | Tent | Wardrobe | Bookshelf | Bed |
+| ------- | ----- | ----- | -------- | ---- | -------- | --------- | --- |
+| 0.755814 | 0.95 |0.83 | 0.9 | 1.0 | 0.65 | 0.95 | 0.92 |
+
 
 Per Class Accuracy:
 -dresser: 0.755814
