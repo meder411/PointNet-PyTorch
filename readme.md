@@ -35,12 +35,11 @@ Here is an graph showing the training loss over 60 epochs:
 
 Total Accuracy: 0.852917
 
-| **Dresser | Chair | Piano | Keyboard | Tent | Wardrobe | Bookshelf | Bed** |
-| ------- | ----- | ----- | -------- | ---- | -------- | --------- | --- |
+| Dresser | Chair | Piano | Keyboard | Tent | Wardrobe | Bookshelf | Bed |
 | 0.76 | 0.95 |0.83 | 0.90 | 1.00 | 0.65 | 0.95 | 0.92 |
-| **XBox | Vase | Table | Flower Pot | Cup | Glass Box | Night Stand | Sink**|
+| XBox | Vase | Table | Flower Pot | Cup | Glass Box | Night Stand | Sink|
 | 0.70 | 0.81 |0.70 | 0.00 | 0.45 | 0.89 | 0.66 | 0.65 |
-| **Laptop | Airplane | Curtain | Range Hood | Stairs | Door | Radio | Bowl**|
+| Laptop | Airplane | Curtain | Range Hood | Stairs | Door | Radio | Bowl|
 | 0.95 | 0.99 |0.80 | 0.91 | 0.65 | 0.85 | 0.70 | 1.00 |
 
 
