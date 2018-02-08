@@ -13,6 +13,8 @@ class ModelNet40(torch.utils.data.Dataset):
 
 	def __init__(self, dataset_root_path, test=False):
 
+		self.test = test
+		
 		# Build path list
 		self.input_pairs, self.gt_key = self.create_input_list(
 			dataset_root_path, test)
@@ -27,6 +29,9 @@ class ModelNet40(torch.utils.data.Dataset):
 
 		# Parse the vertices from the file
 		vertices = self.off_vertex_parser(path)
+		
+		if not self.test:
+			vertices = self.augment_data(vertices)
 
 		# Convert numpy format to torch variable
 		return [torch.from_numpy(vertices), label, path]
@@ -53,7 +58,18 @@ class ModelNet40(torch.utils.data.Dataset):
 		
 		return input_pairs, gt_key
 
+	def augment_data(self, vertices):
+		# Random rotation about the Y-axis
+		theta = 2 * np.pi * np.random.rand(1)
+		Ry = np.array([[np.cos(theta), 0, np.sin(theta)],
+				[0, 1, 0],
+				[-np.sin(theta), 0, np.cos(theta)]])
+		vertices = Ry * vertices
 
+		# Add Gaussian noise with standard deviation of 0.2
+		vertices += np.random.normal(scale=0.02, size(vertices.shape))
+
+		return vertices
 
 	def off_vertex_parser(self, path_to_off_file):
 		# Read the OFF file
