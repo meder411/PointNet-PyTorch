@@ -1,6 +1,9 @@
+# PointNet in PyTorch
+
 This is a PyTorch re-implementation of PointNet according to the specifications laid out in the paper with two minor differences:
- - I exclude the adaptive batch normalization decay rate
- - The trained model provided operates on pointclouds with 2000 points as opposed to 2048 (although you can re-train and change the pointcloud sizes)
+
+ * I exclude the adaptive batch normalization decay rate
+ * The trained model provided operates on pointclouds with 2000 points as opposed to 2048 (although you can re-train and change the pointcloud sizes)
 
 The official TensorFlow implementation can be found here.
 
