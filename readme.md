@@ -16,7 +16,10 @@ Qi, Charles R., et al. "Pointnet: Deep learning on point sets for 3d classificat
 Proc. Computer Vision and Pattern Recognition (CVPR), IEEE 1.2 (2017): 4.
 ```
 
-## TO-DO's
+
+---
+
+## Repo TO-DO's
  * Finsh segmentation implementation
  * Upload the sampled ModelNet40 data
 
