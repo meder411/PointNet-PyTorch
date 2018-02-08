@@ -6,7 +6,7 @@ This is a PyTorch re-implementation of PointNet according to the specifications 
  * The trained model provided operates on pointclouds with 2000 points as opposed to 2048 (although you can re-train and change the pointcloud sizes)
 
 ### Other Implementations
- * The official TensorFlow implementation can be found [here](https://github.com/charlesq34/pointnet).
+ * The official TensorFlow implementation from the authors can be found [here](https://github.com/charlesq34/pointnet).
  * Another PyTorch re-implementation can be found [here](https://github.com/fxia22/pointnet.pytorch).
 
 If you use my re-implementation for your own work, please cite the original paper:
@@ -20,7 +20,7 @@ Proc. Computer Vision and Pattern Recognition (CVPR), IEEE 1.2 (2017): 4.
 ---
 
 ## Repo TO-DO's
- * Finsh segmentation implementation
+ * Finish segmentation implementation
  * Upload the sampled ModelNet40 data
  * Write up how-to section
 
