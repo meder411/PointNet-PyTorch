@@ -39,7 +39,7 @@ The pre-trained classifier model included in this repository was trained for 60 
 
 #### Below are the accuracy results for the included classifier model on the test set
 
-| Overal Accuracy |
+| Overall Accuracy |
 | :---: |
 | 0.852917 |
 
