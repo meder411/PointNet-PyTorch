@@ -21,7 +21,7 @@ Proc. Computer Vision and Pattern Recognition (CVPR), IEEE 1.2 (2017): 4.
  * Upload the sampled ModelNet40 data
 
 
-
+---
 
 
 ## Classification Results
@@ -39,7 +39,7 @@ The pre-trained classifier model included in this repository was trained for 60 
 | --- |
 | 0.852917 |
 
----
+
 
 | Dresser | Chair | Piano | Keyboard | Tent | Wardrobe | Bookshelf | Bed |
 | ------- | ----- | ----- | -------- | ---- | -------- | --------- | --- |
