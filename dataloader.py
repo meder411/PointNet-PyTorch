@@ -64,7 +64,7 @@ class ModelNet40(torch.utils.data.Dataset):
 		Ry = np.array([[np.cos(theta), 0, np.sin(theta)],
 				[0, 1, 0],
 				[-np.sin(theta), 0, np.cos(theta)]])
-		vertices = Ry * vertices
+		vertices = np.matmul(Ry, vertices)
 
 		# Add Gaussian noise with standard deviation of 0.2
 		vertices += np.random.normal(scale=0.02, size(vertices.shape))
